@@ -11,8 +11,8 @@ export class ApikachuService {
   ) {
 
   }
-  getPokemon(number: number) {
+  getPokemon(number: number): Promise<any> {
 
-    return this.http.get(`https://pokeapi.co/api/v2/pokemon/${number}`);
+    return this.http.get(`https://pokeapi.co/api/v2/pokemon/${number}`).toPromise();
   }
 }

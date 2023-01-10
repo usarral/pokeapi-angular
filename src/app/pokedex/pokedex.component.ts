@@ -9,14 +9,21 @@ import { ApikachuService } from '../apikachu.service';
 export class PokedexComponent implements OnInit {
   num: number = 9
   listaPokes: any = [];
+  async getPokemon() {
+    for (let index = 0; index < this.num; index++) {
+
+      await this.api.getPokemon(index + 1).then((info: any) => this.listaPokes.push(info), (error: any) => console.log(error));
+    }
+    console.log(this.listaPokes);
+
+
+  }
   constructor(
     private api: ApikachuService
   ) { }
   ngOnInit(): void {
-    for (let index = 0; index < this.num; index++) {
-      this.api.getPokemon(index + 1).subscribe((info: any) => this.listaPokes.push(info), (error: any) => console.log(error));
-    }
-    console.log(this.listaPokes);
+    this.getPokemon()
+
   }
 
 
