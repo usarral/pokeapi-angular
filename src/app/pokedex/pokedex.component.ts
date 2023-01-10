@@ -15,9 +15,10 @@ export class PokedexComponent implements OnInit {
       await this.api.getPokemon(index + 1).then((info: any) => {
         this.listaPokes.push(info)
       },
-        (error: any) => console.log(error))
+        (error: any) => {
+          console.log(error)
+        })
     }
-    console.log(this.listaPokes);
 
 
   }
