@@ -12,7 +12,10 @@ export class PokedexComponent implements OnInit {
   async getPokemon() {
     for (let index = 0; index < this.num; index++) {
 
-      await this.api.getPokemon(index + 1).then((info: any) => this.listaPokes.push(info), (error: any) => console.log(error));
+      await this.api.getPokemon(index + 1).then((info: any) => {
+        this.listaPokes.push(info)
+      },
+        (error: any) => console.log(error))
     }
     console.log(this.listaPokes);
 
