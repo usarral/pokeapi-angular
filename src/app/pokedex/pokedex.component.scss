@@ -1,0 +1,202 @@
+/*Primario*/
+.normal-primario {
+    border-top: peachpuff solid 4px;
+    border-left: peachpuff solid 4px;
+}
+
+.water-primario {
+    border-top: DodgerBlue solid 4px;
+    border-left: DodgerBlue solid 4px;
+}
+
+.fire-primario {
+    border-top: crimson solid 4px;
+    border-left: crimson solid 4px;
+}
+
+.grass-primario {
+    border-top: lime solid 4px;
+    border-left: lime solid 4px;
+}
+
+.flying-primario {
+    border-top: powderblue solid 4px;
+    border-left: powderblue solid 4px;
+}
+
+.electric-primario {
+    border-top: yellow solid 4px;
+    border-left: yellow solid 4px;
+}
+
+.bug-primario {
+    border-top: forestgreen solid 4px;
+    border-left: forestgreen solid 4px;
+}
+
+.poison-primario {
+    border-top: darkviolet solid 4px;
+    border-left: darkviolet solid 4px;
+}
+
+.fighting-primario {
+    border-top: indianred solid 4px;
+    border-left: indianred solid 4px;
+}
+
+.dark-primario {
+    border-top: black solid 4px;
+    border-left: black solid 4px;
+}
+
+.psychic-primario {
+    border-top: fuchsia solid 4px;
+    border-left: fuchsia solid 4px;
+}
+
+.ghost-primario {
+    border-top: indigo solid 4px;
+    border-left: indigo solid 4px;
+}
+
+.steel-primario {
+    border-top: grey solid 4px;
+    border-left: grey solid 4px;
+}
+
+.ice-primario {
+    border-top: lightcyan solid 4px;
+    border-left: lightcyan solid 4px;
+}
+
+.ground-primario {
+    border-top: burlywood solid 4px;
+    border-left: burlywood solid 4px;
+}
+
+.rock-primario {
+    border-top: saddlebrown solid 4px;
+    border-left: saddlebrown solid 4px;
+}
+
+.fairy-primario {
+    border-top: hotpink solid 4px;
+    border-left: hotpink solid 4px;
+}
+
+.dragon-primario {
+    border-top: darkslateblue solid 4px;
+    border-left: darkslateblue solid 4px;
+}
+
+/*Secundario*/
+.normal-secundario {
+    border-bottom: peachpuff solid 4px;
+    border-right: peachpuff solid 4px;
+}
+
+.water-secundario {
+    border-bottom: DodgerBlue solid 4px;
+    border-right: DodgerBlue solid 4px;
+}
+
+.fire-secundario {
+    border-bottom: crimson solid 4px;
+    border-right: crimson solid 4px;
+}
+
+.grass-secundario {
+    border-bottom: lime solid 4px;
+    border-right: lime solid 4px;
+}
+
+.flying-secundario {
+    border-bottom: powderblue solid 4px;
+    border-right: powderblue solid 4px;
+}
+
+.electric-secundario {
+    border-bottom: yellow solid 4px;
+    border-right: yellow solid 4px;
+}
+
+.bug-secundario {
+    border-bottom: forestgreen solid 4px;
+    border-right: forestgreen solid 4px;
+}
+
+.poison-secundario {
+    border-bottom: darkviolet solid 4px;
+    border-right: darkviolet solid 4px;
+}
+
+.fighting-secundario {
+    border-bottom: indianred solid 4px;
+    border-right: indianred solid 4px;
+}
+
+.dark-secundario {
+    border-bottom: black solid 4px;
+    border-right: black solid 4px;
+}
+
+.psychic-secundario {
+    border-bottom: fuchsia solid 4px;
+    border-right: fuchsia solid 4px;
+}
+
+.ghost-secundario {
+    border-bottom: indigo solid 4px;
+    border-right: indigo solid 4px;
+}
+
+.steel-secundario {
+    border-bottom: grey solid 4px;
+    border-right: grey solid 4px;
+}
+
+.ice-secundario {
+    border-bottom: lightcyan solid 4px;
+    border-right: lightcyan solid 4px;
+}
+
+.ground-secundario {
+    border-bottom: burlywood solid 4px;
+    border-right: burlywood solid 4px;
+}
+
+.rock-secundario {
+    border-bottom: saddlebrown solid 4px;
+    border-right: saddlebrown solid 4px;
+}
+
+.fairy-secundario {
+    border-bottom: hotpink solid 4px;
+    border-right: hotpink solid 4px;
+}
+
+.dragon-secundario {
+    border-bottom: darkslateblue solid 4px;
+    border-right: darkslateblue solid 4px;
+}
+
+///////////
+.container {
+    width: 100%;
+    height: 100vh;
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .col-sm {
+            width: 5%;
+        }
+
+        .col-xl {
+            width: 90%;
+        }
+    }
+}
